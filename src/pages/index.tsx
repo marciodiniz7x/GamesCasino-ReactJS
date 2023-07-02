@@ -1,9 +1,7 @@
-import Interface from "@/components/basicos/Interface";
-
 export default function Home() {
   return (
     <div>
-      <Interface />
+      <h1>Principal</h1>
     </div>
   )
 }
