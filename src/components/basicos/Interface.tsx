@@ -1,7 +1,7 @@
 export default function Interface() {
     return (
 
-        <h1></h1>
+        <h1>Interface</h1>
         
     )
 }
