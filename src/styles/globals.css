@@ -46,10 +46,12 @@ header {
 }
 
 .brilhante {
-
+  display: flex;
+  align-items: center;
   text-shadow: 1px 1px 20px rgb(238, 117, 238);
   font-size: 2em;
-  font-weight: 500;
+  font-weight:500;
+  
   animation:  brilho 3s linear infinite;
 }
 
@@ -73,11 +75,20 @@ header {
 
 }
 
+.menu, .dinheiro {
+  width: 30%;
+}
+
+.banner {
+  width: 100vw;
+  height: 300px;
+}
+
 /* PIRÂMIDE */
 .pyramid-loader {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   display: block;
   transform-style: preserve-3d;
   transform: rotateX(-20deg);
@@ -98,8 +109,8 @@ header {
 }
 
 .pyramid-loader .wrapper .side {
-  width: 70px;
-  height: 70px;
+  width: 40%;
+  height: 40px;
   position: absolute;
   top: 0;
   left: 0;

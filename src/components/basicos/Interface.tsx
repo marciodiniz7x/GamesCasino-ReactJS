@@ -9,23 +9,26 @@ export default function Interface() {
   return (
     <div className="interface">
       <header>
-        <div className="menu">Menu</div>
+        
+        
         <div className="brilhante">
+        <div className="pyramid-loader">
+            <div className="wrapper">
+              <span className="side side1"></span>
+              <span className="side side2"></span>
+              <span className="side side3"></span>
+              <span className="side side4"></span>
+              <span className="shadow"></span>
+            </div>
+          </div>
           <span>META CASINO</span>
           
         </div>
+        <div className="menu">Menu</div>
         <div className="dinheiro">Dinheiro</div>
-        </header>
+      </header>
         
-        <div className="pyramid-loader">
-          <div className="wrapper">
-            <span className="side side1"></span>
-            <span className="side side2"></span>
-            <span className="side side3"></span>
-            <span className="side side4"></span>
-            <span className="shadow"></span>
-          </div>
-        </div>
+      <div className="banner"></div>
      
 
       <button className="btn start-btn" type="button" onClick={handleClick}>
