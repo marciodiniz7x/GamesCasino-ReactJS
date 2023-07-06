@@ -9,8 +9,6 @@ export default function Interface() {
   return (
     <div className="interface">
       <header>
-        
-        
         <div className="brilhante">
         <div className="pyramid-loader">
             <div className="wrapper">

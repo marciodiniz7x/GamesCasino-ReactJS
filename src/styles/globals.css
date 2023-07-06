@@ -37,7 +37,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  box-shadow: 1px 1px 50px 1px #8F51EA;
+
   width: 100vw;
 
   background-repeat: no-repeat;
@@ -80,8 +80,13 @@ header {
 }
 
 .banner {
-  width: 100vw;
+  margin-top: 10px;
+  width: 99vw;
   height: 300px;
+  border-radius: 3px;
+  background-image: url(../components/img/banner1.png);
+  background-size: cover;
+  background-position: center;
 }
 
 /* PIRÂMIDE */
