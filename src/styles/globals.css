@@ -25,17 +25,31 @@
   .leftbar {
     display: none;
   }
+  .sidebar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1500px){
+  .sidebar {
+    display: none;
+  }
 }
   
 
 body {
   background-color: #140236;
   display: flex;
+  justify-content: center;
 }
 
 .material-symbols-outlined {
   color: white;
-  font: 25px;
+  cursor: pointer;
+}
+
+.material-symbols-outlined span {
+  font-size: 1.5em;
 }
 
 .sidebar {
@@ -69,18 +83,14 @@ header {
   padding: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .brilhante {
   display: flex;
   align-items: center;
-  text-shadow: 1px 1px 20px rgb(238, 117, 238);
+
   font-size: 2em;
   font-weight:500;
   font-family: "Play";
@@ -94,19 +104,19 @@ header {
 @keyframes brilho {
 
   0% {
-      text-shadow: 1px 1px 20px rgb(238, 117, 238);
+      text-shadow: 1px 1px 20px rgba(238, 117, 238, 0.678);
   }
 
   50% {
-      text-shadow: 1px 1px 20px rgb(55, 236, 212);
+      text-shadow: 1px 1px 20px rgba(55, 236, 212, 0.692);
   }
 
   75% {
-      text-shadow: 1px 1px 20px rgb(250, 151, 85);
+      text-shadow: 1px 1px 20px rgba(250, 151, 85, 0.616);
   }
 
   100% {
-      text-shadow: 1px 1px 20px rgb(250, 85, 167);
+      text-shadow: 1px 1px 20px rgba(250, 85, 167, 0.651);
   }
 
 }

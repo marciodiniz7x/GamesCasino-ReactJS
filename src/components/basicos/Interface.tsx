@@ -24,10 +24,11 @@ export default function Interface() {
       <header>
         
         <div className="brilhante">
+
           <div className="menu-suspenso">
             <span className="material-symbols-outlined">menu</span>
           </div>
-        <div className="pyramid-loader">
+          <div className="pyramid-loader">
             <div className="wrapper">
               <span className="side side1"></span>
               <span className="side side2"></span>
