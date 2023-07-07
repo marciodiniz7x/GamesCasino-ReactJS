@@ -16,6 +16,11 @@
   }
 }
 
+@font-face {
+  font-family: "Play";
+  src: url("/fonts/Play-Bold.ttf");
+}
+
 body {
   background-color: #140236;
 }
@@ -51,8 +56,12 @@ header {
   text-shadow: 1px 1px 20px rgb(238, 117, 238);
   font-size: 2em;
   font-weight:500;
-  
+  font-family: "Play";
   animation:  brilho 3s linear infinite;
+}
+
+.brilhante span {
+  margin-left: -13px;
 }
 
 @keyframes brilho {
@@ -80,13 +89,16 @@ header {
 }
 
 .banner {
-  margin-top: 10px;
-  width: 99vw;
-  height: 300px;
+  margin-top: 30px;
+  width: 98vw;
+  height: 400px;
   border-radius: 3px;
-  background-image: url(../components/img/banner1.png);
+  background-image: url(../components/img/bn01.png);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 20px 1px rgb(119, 8, 184);
+ 
 }
 
 /* PIRÂMIDE */
@@ -163,6 +175,7 @@ header {
 
 /* BOTÃO */
 .btn {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
