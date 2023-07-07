@@ -121,14 +121,44 @@ header {
 
 }
 
-.menu, .dinheiro {
-  width: 30%;
+.menu {
+  width: 200px;
+  height: 40px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.dinheiro {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu {
+  width: 200px;
+  height: 40px;
+}
+
+.depositar {
+  background-color: #f7276c;
+  width: 180px;
+  height: 45px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .banner {
   margin-top: 30px;
   width: 100%;
-  height: 400px;
+  height: 450px;
   border-radius: 3px;
   background-image: url(../components/img/bn01.png);
   background-size: cover;

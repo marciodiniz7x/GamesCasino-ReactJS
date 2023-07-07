@@ -41,7 +41,10 @@ export default function Interface() {
           
         </div>
         <div className="menu">Menu</div>
-        <div className="dinheiro">Dinheiro</div>
+        <div className="dinheiro">
+
+          <div className="depositar">Depositar</div>
+        </div>
       </header>
         
       <div className="banner"></div>
