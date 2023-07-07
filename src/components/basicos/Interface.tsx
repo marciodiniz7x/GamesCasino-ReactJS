@@ -42,7 +42,18 @@ export default function Interface() {
         </div>
         <div className="menu">Menu</div>
         <div className="dinheiro">
-
+          <div className="saldo">
+            <div className="moeda">R$</div>
+            <div className="valor">1.200,34</div>
+            <div className="opcao-moeda">
+              <select>
+                <option value=""></option>
+                <option value="opcao1">BRL</option>
+                <option value="opcao2">USD</option>
+                <option value="opcao3">EUR</option>
+              </select>
+            </div>
+          </div>
           <div className="depositar">Depositar</div>
         </div>
       </header>

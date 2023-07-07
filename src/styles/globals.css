@@ -144,9 +144,23 @@ header {
   height: 40px;
 }
 
+.saldo {
+  border: 1px solid #8F51EA;
+  width: 160px;
+  height: 45px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  padding: 7px;
+}
+
 .depositar {
   background-color: #f7276c;
-  width: 180px;
+  width: 150px;
   height: 45px;
   border-radius: 3px;
   display: flex;
