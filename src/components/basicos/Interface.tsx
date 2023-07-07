@@ -6,15 +6,27 @@ export default function Interface() {
     alert('Aplicação ainda em Desenvolvimento!');
   };
 
+
+
   return (
+    
+    
     <body>
+
+      {/* Biblioteca Material Symbol */}
+      {  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />  }
+
       <div className="sidebar">
 
       </div>
 
       <div className="interface">
       <header>
+        
         <div className="brilhante">
+          <div className="menu-suspenso">
+            <span className="material-symbols-outlined">menu</span>
+          </div>
         <div className="pyramid-loader">
             <div className="wrapper">
               <span className="side side1"></span>
