@@ -7,7 +7,12 @@ export default function Interface() {
   };
 
   return (
-    <div className="interface">
+    <body>
+      <div className="sidebar">
+
+      </div>
+
+      <div className="interface">
       <header>
         <div className="brilhante">
         <div className="pyramid-loader">
@@ -41,6 +46,9 @@ export default function Interface() {
         </div>
       </button>
     </div>
+
+    <div className="leftbar"></div>
+    </body>
   );
   
 }
