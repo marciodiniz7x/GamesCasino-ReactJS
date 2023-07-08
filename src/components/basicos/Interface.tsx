@@ -25,9 +25,7 @@ export default function Interface() {
         
         <div className="brilhante">
 
-          <div className="menu-suspenso">
-            <span className="material-symbols-outlined">menu</span>
-          </div>
+          <span>META CASINO</span>
           <div className="pyramid-loader">
             <div className="wrapper">
               <span className="side side1"></span>
@@ -37,7 +35,7 @@ export default function Interface() {
               <span className="shadow"></span>
             </div>
           </div>
-          <span>META CASINO</span>
+          
           
         </div>
         <div className="menu">Menu</div>
