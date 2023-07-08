@@ -38,7 +38,21 @@ export default function Interface() {
           
           
         </div>
-        <div className="menu">Menu</div>
+        <div className="menu">
+        <form className={`
+          flex align-middle justify-center gap-2
+        `}>
+          <input type="text" name="search" placeholder='Pesquisar Jogos' className={`
+            rounded-sm bg-[#2c0477] outline-none w-60 text-center
+          `} />
+          <button type="submit">
+            <span className="material-symbols-outlined">
+            search
+            </span>
+          </button>
+        </form>
+
+        </div>
         <div className="dinheiro">
           <div className="saldo">
             <div className={
