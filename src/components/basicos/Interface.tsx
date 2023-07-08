@@ -43,15 +43,16 @@ export default function Interface() {
         <div className="menu">Menu</div>
         <div className="dinheiro">
           <div className="saldo">
-            <div className="moeda">R$</div>
-            <div className="valor">1.200,34</div>
-            <div className="opcao-moeda">
-              <select>
-                <option value=""></option>
-                <option value="opcao1">BRL</option>
-                <option value="opcao2">USD</option>
-                <option value="opcao3">EUR</option>
-              </select>
+            <div className={
+              `flex justify-center align-middle
+              w-7 rounded-md text-[#000]
+              bg-[#35EF7B]`
+              }>R$</div>
+            <div className='valor'>1.200,34</div>
+            <div>
+            <span className="material-symbols-outlined">
+              settings
+            </span>
             </div>
           </div>
           <div className="depositar">Depositar</div>

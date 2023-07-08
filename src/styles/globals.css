@@ -144,15 +144,19 @@ header {
   height: 40px;
 }
 
+.material-symbols-outlined {
+  color: #c5c5c5;
+}
+
 .saldo {
-  border: 1px solid #8F51EA;
+  border: 1px solid #35EF7B;
+
   width: 160px;
   height: 45px;
   border-radius: 3px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  cursor: pointer;
+
   display: flex;
   justify-content: space-around;
   padding: 7px;
